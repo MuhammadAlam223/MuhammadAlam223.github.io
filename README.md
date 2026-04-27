@@ -1,22 +1,25 @@
 # Assignment 4 GitHub Pages Website
 
-This repository contains a multi-page GitHub Pages website for Assignment 4.
+This repository contains my improved GitHub Pages website for Assignment 4.
 
 ## Pages
+
 - Home: `index.html`
 - About: `about.html`
 - IT Ethics: `ethics.html`
 - Contact: `contact.html`
 
 ## Styling
-The site uses one organized CSS file located at:
 
-`assets/css/styles.css`
+The website uses a custom CSS file:
 
-## Assignment Requirements Covered
-- Live GitHub Pages website
-- More than two menu items in the top header
-- Multiple pages linked through navigation
-- Professional CSS styling
-- IT ethics page with references
-- Organized source code structure
+- `styles.css`
+
+## Assignment 4 Requirements Covered
+
+- The website is published through GitHub Pages.
+- The header includes more than two menu items.
+- The menu links navigate to different pages.
+- Each page is styled using CSS.
+- The IT Ethics page includes useful content about technology ethics.
+- The ethics page includes references/citations to original sources.
