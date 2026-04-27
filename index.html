@@ -3,54 +3,55 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Muhammad Alam - GitHub Page</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 40px;
-      background: #f7f9fc;
-      color: #222;
-    }
-    h1 {
-      margin-bottom: 20px;
-    }
-    table {
-      border-collapse: collapse;
-      width: 100%;
-      max-width: 700px;
-      background: white;
-    }
-    th, td {
-      border: 1px solid #ccc;
-      padding: 12px;
-      text-align: left;
-      vertical-align: top;
-    }
-    th {
-      width: 180px;
-      background: #eef3ff;
-    }
-  </style>
+  <title>Muhammad Alam | Home</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 <body>
-  <h1>Welcome to My GitHub Page</h1>
+<header class="header">
+  <div class="container navbar">
+    <div class="logo">Muhammad Alam | IT Portfolio</div>
+    <nav class="menu" aria-label="Main navigation">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html" class="">About</a>
+      <a href="ethics.html" class="">IT Ethics</a>
+      <a href="contact.html" class="">Contact</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="hero">
+    <div class="container hero-content">
+      <span class="badge">Assignment 4 Website Improvement</span>
+      <h1>Welcome to my IT portfolio website.</h1>
+      <p class="lead">This website was improved from my earlier GitHub Pages project. It now includes multiple pages, a navigation menu, cleaner styling, and a page focused on ethics in information technology.</p>
+      <div class="button-row">
+        <a class="button" href="ethics.html">View IT Ethics Page</a>
+        <a class="button secondary" href="about.html">Learn About Me</a>
+      </div>
+    </div>
+  </section>
 
-  <table>
-    <tr>
-      <th>Name</th>
-      <td>Muhammad Alam</td>
-    </tr>
-    <tr>
-      <th>Introduction</th>
-      <td>
-        Hello, I am Muhammad Alam, a junior in the BS Information Technology program at George Mason University.
-        I am interested in cybersecurity, coding, and building practical technology projects.
-      </td>
-    </tr>
-    <tr>
-      <th>Hobbies</th>
-      <td>Boxing, strength training, learning cybersecurity, and working on business and tech ideas.</td>
-    </tr>
-  </table>
+  <section class="section">
+    <div class="container grid">
+      <article class="card">
+        <h3>Clean Navigation</h3>
+        <p>The top menu allows visitors to move between Home, About, IT Ethics, and Contact pages.</p>
+      </article>
+      <article class="card">
+        <h3>Professional Styling</h3>
+        <p>The site uses a separate CSS file, consistent colors, spacing, cards, and responsive layouts.</p>
+      </article>
+      <article class="card">
+        <h3>IT Ethics Content</h3>
+        <p>The ethics page discusses privacy, security, bias, honesty, and responsible development with references.</p>
+      </article>
+    </div>
+  </section>
+</main>
+<footer class="footer">
+  <div class="container">
+    <p>&copy; 2026 Muhammad Alam. Built for Assignment 4 using HTML and CSS on GitHub Pages.</p>
+  </div>
+</footer>
 </body>
 </html>
